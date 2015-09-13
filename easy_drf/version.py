@@ -8,4 +8,4 @@
 # http://www.opensource.org/licenses/MIT-license
 # Copyright (c) 2015, Tal Peretz <13@1500.co.il>
 
-__version__ = '0.1.0'  # NOQA
+__version__ = '0.1.1'  # NOQA
