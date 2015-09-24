@@ -1,7 +1,7 @@
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_extensions.mixins import NestedViewSetMixin
-from etag_demo_app.views.etag_demo import etag
+from easy_drf.decorators.etag import etag
 
 
 class ModelFlatEtagViewSet(NestedViewSetMixin, ModelViewSet):

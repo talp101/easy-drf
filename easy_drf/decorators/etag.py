@@ -3,8 +3,6 @@ import hashlib
 from rest_framework import status
 from rest_framework.response import Response
 
-
-
 def etag(f):
     @functools.wraps(f)
     def wrapped(*args, **kwargs):
